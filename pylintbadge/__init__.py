@@ -1,1 +1,1 @@
-from pylintbadge import main
+from pylintbadge.pylintbadge import main
