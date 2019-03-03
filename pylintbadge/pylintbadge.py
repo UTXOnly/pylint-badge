@@ -54,8 +54,8 @@ def main():
 
     color = get_color(float(score))
 
-    filename = file_to_lint.split('.')[0]+'.svg'
-    print(filename)
+    filename = 'pylint.svg'
+    print("{} written".format(filename))
     with open(filename, 'w') as score_file:
         score_file.write(template.format(score=score, color=color))
 
